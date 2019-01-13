@@ -79,11 +79,12 @@ gems:
   - jekyll-include-cache
 
 # Exclude these files from your production _site  
-#   - Gemfile  - Gemfile.lock
+#    - Gemfile.lock
 exclude:
+  - Gemfile 
   - LICENSE
   - README.md
   - CNAME
 
-#theme: jekyll-theme-slate
-remote_theme: "mmistakes/minimal-mistakes@4.14.2"
+theme: jekyll-theme-slate
+#remote_theme: "mmistakes/minimal-mistakes@4.14.2"
