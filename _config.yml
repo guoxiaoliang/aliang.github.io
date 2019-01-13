@@ -76,14 +76,14 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-include-cache
 
-# Exclude these files from your production _site
+# Exclude these files from your production _site  
+#   - Gemfile  - Gemfile.lock
 exclude:
-  - Gemfile
-  - Gemfile.lock
   - LICENSE
   - README.md
   - CNAME
 
 #theme: jekyll-theme-slate
- theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.14.2"
